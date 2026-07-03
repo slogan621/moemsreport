@@ -1,0 +1,18 @@
+team_name: AOE Math Club
+season: 2025 - 2026
+contests:
+- number: 1
+  populations: contests/contest_01/populations.yaml
+  students: contests/contest_01/students.yaml
+- number: 2
+  populations: contests/contest_02/populations.yaml
+  students: contests/contest_02/students.yaml
+- number: 3
+  populations: contests/contest_03/populations.yaml
+  students: contests/contest_03/students.yaml
+- number: 4
+  populations: contests/contest_04/populations.yaml
+  students: contests/contest_04/students.yaml
+- number: 5
+  populations: contests/contest_05/populations.yaml
+  students: contests/contest_05/students.yaml

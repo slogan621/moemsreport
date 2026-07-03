@@ -1,0 +1,51 @@
+students:
+  - name: Maya Chen
+    score: 5
+
+  - name: Jordan Brooks
+    score: 4
+
+  - name: Sofia Martinez
+    score: 4
+
+  - name: Ethan Nguyen
+    score: 3
+
+  - name: Olivia Parker
+    score: 5
+
+  - name: Liam O'Connor
+    score: 3
+
+  - name: Aisha Rahman
+    score: 4
+
+  - name: Noah Kim
+    score: 2
+
+  - name: Emma Sullivan
+    score: 4
+
+  - name: Marcus Johnson
+    score: 3
+
+  - name: Zoe Williams
+    score: 5
+
+  - name: Diego Flores
+    score: 1
+
+  - name: Hannah Becker
+    score: 3
+
+  - name: Tyler Anderson
+    score: 4
+
+  - name: Priya Sharma
+    score: 2
+
+  - name: Caleb Thompson
+    score: 3
+
+  - name: Lily Nakamura
+    score: 4

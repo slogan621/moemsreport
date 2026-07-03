@@ -1,0 +1,21 @@
+populations:
+  - label: my team
+    size: 17
+    # % scoring 5, 4, 3, 2, 1, 0 correct — team skews above average
+    score_percentages: [12, 24, 29, 18, 12, 5]
+
+  - label: All Participants
+    size: 1000
+    score_percentages: [6, 11, 18, 24, 23, 18]
+
+  - label: 6th grade
+    size: 400
+    score_percentages: [8, 14, 20, 24, 22, 12]
+
+  - label: 5th grade
+    size: 300
+    score_percentages: [5, 10, 17, 23, 24, 21]
+
+  - label: 4th grade
+    size: 300
+    score_percentages: [4, 8, 14, 22, 26, 26]

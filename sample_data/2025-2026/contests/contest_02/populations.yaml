@@ -1,0 +1,46 @@
+populations:
+- label: my team
+  size: 17
+  score_percentages:
+  - 11
+  - 23
+  - 28
+  - 19
+  - 13
+  - 6
+- label: All Participants
+  size: 1000
+  score_percentages:
+  - 6
+  - 11
+  - 18
+  - 24
+  - 23
+  - 18
+- label: 6th grade
+  size: 400
+  score_percentages:
+  - 8
+  - 13
+  - 20
+  - 24
+  - 22
+  - 13
+- label: 5th grade
+  size: 300
+  score_percentages:
+  - 5
+  - 10
+  - 17
+  - 23
+  - 24
+  - 21
+- label: 4th grade
+  size: 300
+  score_percentages:
+  - 4
+  - 8
+  - 14
+  - 22
+  - 26
+  - 26
