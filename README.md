@@ -59,9 +59,10 @@ data prep and generate reports.
 Requires Python 3.9+.
 
 ```bash
-cd "/path/to/cursor projects"
+cd "moemsreport"
 python3 -m venv .venv
-.venv/bin/pip install -r requirements.txt
+source .venv/bin/activate 
+pip3 install -r requirements.txt
 ```
 
 On macOS, if matplotlib warns about its config directory, set:
@@ -75,7 +76,8 @@ export MPLCONFIGDIR="$(pwd)/.matplotlib"
 Generate all reports for the included sample season (5 contests × 17 students = 85 PDFs):
 
 ```bash
-.venv/bin/python exam_batch_reports.py sample_data/2025-2026/season.yaml
+source .venv/bin/activate
+python3 exam_batch_reports.py sample_data/2025-2026/season.yaml
 ```
 
 Reports are written to `sample_data/2025-2026/reports/contest_01/` through `contest_05/`.
@@ -170,7 +172,8 @@ Paths in the season file are relative to the season file's directory.
 Generate reports for every contest in a season:
 
 ```bash
-.venv/bin/python exam_batch_reports.py sample_data/2025-2026/season.yaml
+source venv/bin/activate
+python3 exam_batch_reports.py sample_data/2025-2026/season.yaml
 ```
 
 Output layout:
@@ -190,13 +193,15 @@ sample_data/2025-2026/reports/
 Generate reports for one contest only:
 
 ```bash
-.venv/bin/python exam_batch_reports.py sample_data/2025-2026/season.yaml --contest 3
+source .venv/bin/activate
+python3 exam_batch_reports.py sample_data/2025-2026/season.yaml --contest 3
 ```
 
 ### Batch mode — custom output directory
 
 ```bash
-.venv/bin/python exam_batch_reports.py sample_data/2025-2026/season.yaml \
+source .venv/bin/activate
+python3 exam_batch_reports.py sample_data/2025-2026/season.yaml \
   -o /path/to/output
 ```
 
@@ -207,7 +212,8 @@ Contest subfolders (`contest_01/`, `contest_02/`, etc.) are created inside the o
 Generate reports directly from a populations file and a students file, without a season file:
 
 ```bash
-.venv/bin/python exam_percentile_report.py \
+source .venv/bin/activate
+python3 exam_percentile_report.py \
   sample_data/2025-2026/contests/contest_03/populations.yaml \
   sample_data/2025-2026/contests/contest_03/students.yaml \
   --team-name "Riverside Math Team" \
@@ -232,7 +238,8 @@ If metadata flags are omitted, reports still generate but use generic headings a
 For a quick percentile check without generating PDFs:
 
 ```bash
-.venv/bin/python exam_percentile.py
+source .venv/bin/activate
+python3 exam_percentile.py
 ```
 
 The program prompts for population sizes, score breakdowns (0–5 correct) for populations A and B, and the student's score, then prints percentile ranks.
@@ -294,7 +301,8 @@ sample_data/
 To recreate the sample season YAML files and contest data:
 
 ```bash
-.venv/bin/python sample_data/create_sample_season.py
+source venv/bin/activate
+python3 sample_data/create_sample_season.py
 ```
 
 This writes a 5-contest season for the **Riverside Math Team** (17 students, populations for team / all / 4th–6th grade) under `sample_data/2025-2026/`.
