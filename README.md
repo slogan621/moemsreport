@@ -56,9 +56,10 @@ data prep and generate reports.
 
 ## Installation
 
-Requires Python 3.9+.
+Requires git and Python 3.9+.
 
 ```bash
+git clone https://github.com/slogan621/moemsreport.git
 cd "moemsreport"
 python3 -m venv .venv
 source .venv/bin/activate 
