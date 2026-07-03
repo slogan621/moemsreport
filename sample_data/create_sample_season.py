@@ -115,7 +115,7 @@ def main() -> None:
     BASE.mkdir(parents=True, exist_ok=True)
 
     season = {
-        "team_name": "AOE Math Club",
+        "team_name": "Riverside Math Club",
         "season": "2025 - 2026",
         "contests": [
             {
